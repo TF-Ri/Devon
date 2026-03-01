@@ -18,6 +18,8 @@ The DJI GL200A is the remote controller for the DJI Mavic Pro drone. It features
 | Image | Description |
 |-------|-------------|
 | ![Controller Back](images/IMG_2092.jpg) | Back label showing DJI logo, Model GL200A, FCC ID, power specs, battery info, and regulatory markings |
+| *(Add front image)* | Front view showing dual control sticks, LCD status display, Sport mode switch, C1/C2 buttons, gimbal dial, phone cradle, and power button |
+| *(Add back label close-up)* | Close-up of back label with FCC ID SS3-GL200A606, battery 2970mAh 3.7V, and DJI Technology info |
 
 ## Technical Specifications
 - **Communication**: OcuSync / Enhanced WiFi (2.4 GHz / 5.8 GHz)
@@ -25,7 +27,8 @@ The DJI GL200A is the remote controller for the DJI Mavic Pro drone. It features
 - **Video Downlink**: 720p/1080p live feed
 - **Battery**: Built-in 2970mAh 3.7V LiPo
 - **Charging**: USB 5V/2A
-- **Controls**: Dual joysticks, C1/C2 buttons, gimbal dial, 5D button
+- **Controls**: Dual joysticks, C1/C2 custom buttons, gimbal dial, 5D button, Sport mode switch, RTH button
+- **Display**: Built-in LCD status panel (battery, signal, GPS, flight mode)
 - **Phone Mount**: Foldable clamp (accommodates phones up to 6.5")
 - **Ports**: Micro-USB (charging), USB (phone connection), Lightning/USB-C adapters
 - **Telemetry**: GPS coordinates, altitude, speed, battery, signal strength

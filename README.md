@@ -15,8 +15,8 @@ A cataloged inventory of development hardware, tools, and components with detail
 | 7 | [BLE Camera Module](devices/ble-camera-module/README.md) | Wireless Camera/Sensor | 2 | Sensor |
 | 8 | [Arduino UNO R4 WiFi](devices/arduino-uno-r4-wifi/README.md) | Microcontroller Board | 1 | Dev Board |
 | 9 | [MIL-Spec Connectors](devices/mil-spec-connectors/README.md) | Circular Connectors | 2 | Connector |
-| 10 | [DJI Mavic Pro Controller](devices/dji-mavic-pro-controller/README.md) | Drone Remote | 1 | UAV |
-| 11 | [Aurora Cord & Cable Enclosure](devices/aurora-cord-cable-enclosure/README.md) | Industrial Enclosure | 1 | Enclosure |
+| 10 | [DJI Mavic Pro Controller](devices/dji-mavic-pro-controller/README.md) | Drone Remote | 3 | UAV |
+| 11 | [MIL Dome Light MS-51073-1](devices/mil-dome-light-ms51073/README.md) | Military Dome Light | 2 | Tactical |
 | 12 | [ASUS ROG Strix GL503V](devices/asus-rog-strix-gl503v/README.md) | Gaming Laptop | 1 | Computer |
 | 13 | [ASUS ZenBook UX3407Q](devices/asus-zenbook-ux3407q/README.md) | Ultrabook | 1 | Computer |
 | 14 | [Custom Desktop JT-C1](devices/custom-desktop-jt-c1/README.md) | Desktop Workstation | 1 | Computer |
@@ -27,8 +27,9 @@ A cataloged inventory of development hardware, tools, and components with detail
 | 19 | [Electronics Components Kit](devices/electronics-components-kit/README.md) | Connectors & Supplies | 1 | Components |
 | 20 | [SK Hynix SH920 512GB SSD](devices/sk-hynix-sh920-ssd/README.md) | 2.5" SATA SSD | 1 | Storage |
 | 21 | [Google Chromecast 2nd Gen](devices/google-chromecast-2nd-gen/README.md) | Streaming Dongle | 1 | Media |
+| 22 | [Seeed XIAO nRF52840](devices/seeed-xiao-nrf52840/README.md) | BLE Dev Board | 1 | Dev Board |
 
-**Total: 21 items | 26 images**
+**Total: 22 items | 31 images**
 
 ## Repository Structure
 
@@ -45,7 +46,7 @@ Devon/
     arduino-uno-r4-wifi/         # Arduino with WiFi and LED matrix
     mil-spec-connectors/         # Military circular connectors
     dji-mavic-pro-controller/    # DJI drone remote controller
-    aurora-cord-cable-enclosure/ # Industrial waterproof enclosure
+    mil-dome-light-ms51073/      # MIL-L-45068 24V military dome light
     asus-rog-strix-gl503v/       # ROG gaming laptop (GTX 1060/1070)
     asus-zenbook-ux3407q/        # ZenBook ultrabook
     custom-desktop-jt-c1/        # i9-9900K + RTX 5070 workstation
@@ -56,6 +57,7 @@ Devon/
     electronics-components-kit/  # Powerpole connectors, heat shrink
     sk-hynix-sh920-ssd/          # 512GB 2.5" SATA SSD
     google-chromecast-2nd-gen/   # Google Cast streaming dongle
+    seeed-xiao-nrf52840/         # Nordic nRF52840 BLE dev board
   README.md              # This file — master inventory
   CLAUDE.md              # Claude Code development guide
   LICENSE                # Apache 2.0
@@ -64,8 +66,8 @@ Devon/
 
 ## Categories
 
-### Dev Boards (5)
-STM32F469I-DISCO, BlueNRG-LP + MKI221V1, SensorTile.box, STEVAL-STWINBX, Arduino UNO R4 WiFi
+### Dev Boards (6)
+STM32F469I-DISCO, BlueNRG-LP + MKI221V1, SensorTile.box, STEVAL-STWINBX, Arduino UNO R4 WiFi, Seeed XIAO nRF52840
 
 ### Sensors (3)
 Analog Devices ToF Camera, Slamtec RPLIDAR S2M1, BLE Camera Module
@@ -79,11 +81,11 @@ Corning Fiber Optic Cables, Google Chromecast 2nd Gen
 ### UAV (1)
 DJI Mavic Pro Controller GL200A
 
-### Tactical (1)
-NVG Mounting System (J-Arm + VAS Shroud)
+### Tactical (2)
+NVG Mounting System (J-Arm + VAS Shroud), MIL Dome Light MS-51073-1
 
-### Components & Accessories (5)
-MIL-Spec Connectors, Aurora Cord & Cable Enclosure, LiPo Batteries, Electronics Components Kit, SK Hynix SSD
+### Components & Accessories (4)
+MIL-Spec Connectors, LiPo Batteries, Electronics Components Kit, SK Hynix SSD
 
 ## Development Workflow
 
