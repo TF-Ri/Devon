@@ -1,0 +1,15 @@
+# Temporary analysis files
+_analysis/
+
+# Python
+__pycache__/
+*.pyc
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Editor
+*.swp
+*.swo
+*~
